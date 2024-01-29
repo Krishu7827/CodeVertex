@@ -80,7 +80,7 @@ const toast = useToast()
               title: '',
               description: "Paid Succesfully!",
               status: 'success',
-              duration: 4000,
+              duration: 5000,
               isClosable: true,
               position:"top"
             })
@@ -147,7 +147,7 @@ const toast = useToast()
                     Discount: -₹50
                   </Text>
                   <Text fontSize="md" fontWeight="bold">
-                    Total Amount: ₹100000000000000000
+                    Total Amount: ₹149
                   </Text>
                 </Box>
 

@@ -144,17 +144,17 @@ const Navbar = () => {
           <DrawerCloseButton />
           <DrawerBody>
             {/* Use VStack to stack items vertically */}
-            <VStack spacing={4} align="start">
-              <Button variant="ghost" onClick={handleDrawerClose} >
+            <VStack spacing={4} align="start" color={'white'}>
+              <Button variant="ghost" onClick={handleDrawerClose} color={'white'} >
                 Home
               </Button>
-              <Button variant="ghost" onClick={handleDrawerClose}>
+              <Button variant="ghost" onClick={handleDrawerClose} color={'white'}>
                 About
               </Button>
-              <Button variant="ghost" onClick={handleDrawerClose}>
+              <Button variant="ghost" onClick={handleDrawerClose} color={'white'}>
                 Services
               </Button>
-              <Button variant="ghost" onClick={handleDrawerClose}>
+              <Button variant="ghost" onClick={handleDrawerClose} color = {'white'}>
                 Contact
               </Button>
 
@@ -162,7 +162,7 @@ const Navbar = () => {
           
 
               {/* Search Input */}
-              {context?.authentication && context?.authentication.Name?<Button variant="ghost" mr={4} onClick={logout} >
+              {context?.authentication && context?.authentication.Name?<Button variant="ghost" color={'white'} mr={4} onClick={logout} >
           Logout
         </Button>:<Button variant="ghost" mr={4} onClick={handleOpen}>
           Login

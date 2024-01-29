@@ -188,8 +188,9 @@ const InterviewComponent = ({Question,index}) => {
 
 
   return (
+    {Question}?
     <Center ref={focusRef}>
-      
+     
       <Box p={4} width={{ base: '100%', md: '80%', lg: '60%' }}>
         <PlagiarismModal isOpen={isOpen} onClose={onClose} />
         <InstructionModal isOpen={isInstruction} onClose={onCloseInstruction}/>
@@ -234,7 +235,9 @@ const InterviewComponent = ({Question,index}) => {
           <Notification showAlert={showNotification} status={NotificationStats} title={NotificationTitle} description={NotificationDiscription} />
         </Box>
       </Slide>
-    </Center>
+    </Center>:<Box>
+       <Text textAlign={'center'}>You Haven't logged in, Yet</Text>
+    </Box>
   );
 };
 

@@ -173,6 +173,11 @@ console.log(err)
                   <option value="Node.js">Node.js</option>
                   <option value="Mern">MERN</option>
                   <option value="Java">Java</option>
+                  <option value="Python">Python</option>
+                  <option value="System Design">System Design</option>
+                  <option value="C++">C++</option>
+                  <option value="C">C</option>
+                  <option value="React">React</option>
                 </Select>
               </FormControl>
 
