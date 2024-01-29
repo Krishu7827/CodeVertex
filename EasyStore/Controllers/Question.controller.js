@@ -65,10 +65,12 @@ const ReviewtheQuestion = async(req,res)=>{
     
   
     [
-        score: 8, // Example score (replace with the actual evaluation)
-        feedback: "Demonstrates a solid grasp of core concepts, but could benefit from greater attention to detail.", // Example feedback (replace with actual feedback)
-        extra: "Consider practicing more complex problem-solving and providing more detailed explanations.", // Example suggestion (replace if applicable)
-        error: null // Only include if errors are encountered
+      {
+        "score": 8, // Example score (replace with the actual evaluation)
+        "feedback": "Demonstrates a solid grasp of core concepts, but could benefit from greater attention to detail.", // Example feedback (replace with actual feedback)
+        "extra": "Consider practicing more complex problem-solving and providing more detailed explanations.", // Example suggestion (replace if applicable)
+        "error": null // Only include if errors are encountered
+    }
     ]
    
     Key guidelines:
